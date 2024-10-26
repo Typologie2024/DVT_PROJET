@@ -27,7 +27,7 @@ require([
       container: "viewDiv"
     });
     const barragepachalikPopup = new PopupTemplate({
-        title:"Barrages par Caidats",
+        title:"Barrages par Pachalik",
         content:`
         <ul>
         <li>Nom: {nom_barrag}</li>
@@ -49,7 +49,7 @@ require([
         }
       };
       const barragescaidatPopup = new PopupTemplate({
-        title:"Barrages par Pachaliks",
+        title:"Barrages par Caidat",
         content:`
         <ul>
         <li>Nom: {nom_barrag}</li>
